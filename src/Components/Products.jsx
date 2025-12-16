@@ -16,7 +16,7 @@ const Products = () => {
 
   return (
     <>
-      {/* Header */}
+
       <div
         className="w-1/2 mx-auto py-5 bg-black text-white text-center
                    text-2xl font-bold tracking-widest sticky top-0 z-50
@@ -25,7 +25,7 @@ const Products = () => {
         PRODUCTS
       </div>
 
-      {/* Products Grid */}
+
       <div
         className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3
                    gap-5 p-5 text-center items-center"
@@ -57,7 +57,6 @@ const Products = () => {
         ))}
       </div>
 
-      {/* Footer */}
       <p className="text-black text-base font-bold tracking-[6px] text-center mt-6">
         FEATURED ITEMS
       </p>

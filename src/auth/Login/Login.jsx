@@ -35,7 +35,7 @@ const Login = () => {
   return (
     <div className="flex h-screen font-sans bg-slate-100">
 
-      {/* LEFT */}
+
       <div className="w-full md:w-1/2 bg-white flex flex-col justify-center p-10">
         <h2 className="text-2xl font-bold mb-10">Log in</h2>
 
@@ -104,7 +104,7 @@ const Login = () => {
         </form>
       </div>
 
-      {/* RIGHT */}
+   
       <div
         className="hidden md:flex md:w-1/2 bg-cover bg-bottom p-10 items-start justify-center text-center"
         style={{ backgroundImage: `url(${Rectangle})` }}
