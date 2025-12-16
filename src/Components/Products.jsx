@@ -17,13 +17,7 @@ const Products = () => {
   return (
     <>
 
-      <div
-        className="w-1/2 mx-auto py-5 bg-black text-white text-center
-                   text-2xl font-bold tracking-widest sticky top-0 z-50
-                   hover:bg-gray-600 transition"
-      >
-        PRODUCTS
-      </div>
+    
 
 
       <div
