@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import Products from "./Products"; 
 import cart from "../assets/cart.png";
+import ProductStyle from "./ProductStyle";
 
 const HomePage = () => {
     return (
@@ -45,6 +46,7 @@ const HomePage = () => {
                 </div>
 
             </nav>
+            <ProductStyle />
             <Products />
         </div>
     );
