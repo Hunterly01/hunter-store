@@ -2,7 +2,7 @@ import { Link } from "react-router";
 import Products from "./Products"; 
 import cart from "../assets/cart.png";
 import ProductStyle from "./ProductStyle";
-
+import FooterStyle from "./FooterStyle";
 const HomePage = () => {
     return (
         <div>
@@ -20,7 +20,7 @@ const HomePage = () => {
             <nav className="w-full bg-white border-b">
                 <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between gap-6">
                     <p className="text-2xl font-extrabold tracking-tight">
-                        Hunter.Store
+                        HUNTER.STORE
                     </p>
                     <ul className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-690">
                         <li className="hover:text-black cursor-pointer ">Shop</li>
@@ -48,6 +48,7 @@ const HomePage = () => {
             </nav>
             <ProductStyle />
             <Products />
+            <FooterStyle />
         </div>
     );
 }

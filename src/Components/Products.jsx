@@ -51,9 +51,7 @@ const Products = () => {
         ))}
       </div>
 
-      <p className="text-black text-base font-bold tracking-[6px] text-center mt-6">
-        FEATURED ITEMS
-      </p>
+
     </>
   );
 };
