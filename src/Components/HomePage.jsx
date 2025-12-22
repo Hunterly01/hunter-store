@@ -4,6 +4,7 @@ import cart from "../assets/cart.png";
 import ProductStyle from "./ProductStyle";
 import FooterStyle from "./FooterStyle";
 const HomePage = () => {
+
     return (
         <div>
             <div className="w-full bg-black text-white text-sm flex items-center justify-center px-4 py-2">
@@ -38,9 +39,11 @@ const HomePage = () => {
                     <div className="flex items-center gap-4">
                         <Link to="/cart" className="relative">
                         <img src={cart} alt="Cart" className="w-6 h-6 object-contain hover:scale-110 transition"/>
-                        <span className="absolute -top-2 -right-2 bg-red-600 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center">0</span>
-                        </Link>
                     
+                        <span className="absolute -top-2 -right-2 bg-red-600 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center"></span>
+                            
+
+                        </Link>
                     </div>
 
                 </div>

@@ -1,13 +1,18 @@
 import { createBrowserRouter } from "react-router";
 import Login from "../Login/Login";
 import Register from "../Register/Register";
-import Products from "../../Components/Products";
-import NotFound from "../../Components/NotFound";
 import HomePage from "../../Components/HomePage";
+import ProductDetails from "../../Components/ProductDetails";
+import NotFound from "../../Components/NotFound";
+
 
 const router = createBrowserRouter([
   {
-    path: "/Login",
+    path: "/",
+    element: <HomePage />,
+  },
+  {
+    path: "/login",
     element: <Login />,
   },
   {
@@ -15,8 +20,12 @@ const router = createBrowserRouter([
     element: <Register />,
   },
   {
-    path: "/products",
-    element: <HomePage/>,
+    path: "/product/:id",
+    element: <ProductDetails />,
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 

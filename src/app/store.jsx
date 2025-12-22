@@ -6,6 +6,7 @@ export const store = configureStore({
   reducer: {
     [LoginApis.reducerPath]: LoginApis.reducer,
     [ProductApis.reducerPath]: ProductApis.reducer,
+    
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware()
